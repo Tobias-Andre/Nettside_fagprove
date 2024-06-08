@@ -1,0 +1,127 @@
+* {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+#welcome-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+#welcome-image {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#welcome-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    padding: 2rem;
+    background-color: #ffffff77;
+    border-radius: 1rem;
+}
+
+#opening-hours {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #ffc3c3 0%, #ffc3c3 50%, #fcdc85);
+}
+
+#opening-hours-div {
+    display: grid;
+    width: 50%;
+    height: 80%;
+    background-color: #d6d6d6;
+    margin: auto;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 10rem;
+}
+
+#opening-hours-div h2 {
+    grid-column: 1 /span 2;
+    font-size: 5rem;
+}
+
+#opening-hours-div p {
+    font-size: 3rem;
+}
+
+#baked-goods-and-prices {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #ffcccc, #ffe9c0);
+}
+
+#baked-goods {
+    justify-content: center;
+    align-content: center;
+    background-color: #d6d6d6;
+    padding: 2.5rem;
+    border-radius: 5rem;
+}
+
+#baked-goods h2 {
+    font-size: 3.5rem;
+}
+
+#baked-goods p {
+    font-size: 2.4rem;
+}
+
+#prices {
+    justify-content: center;
+    align-content: center;
+    background-color: #d6d6d6;
+    padding: 2.5rem;
+    border-radius: 5rem;
+}
+
+#prices h2 {
+    font-size: 3.5rem;
+}
+
+#prices p {
+    font-size: 2.4rem;
+}
+
+.divider {
+    width: 100vw;
+    height: 1rem;
+    background-color: #d6d6d6;
+}
+
+footer {
+    background-color: #d6d6d6;
+    display: grid;
+    grid-template-columns: 46% 46%;
+    column-gap: 8%;
+    padding: 3rem 0 3rem 0;
+}
+
+footer h3 {
+    font-size: 4rem;
+    grid-row: 1 /span 2;
+    justify-self: right;
+}
+
+footer p {
+    font-size: 2rem;
+}

@@ -1,0 +1,1 @@
+Du blir kontakta av Henrik Hermansen frå bedrifta Hermansens Nybakte Boller som ber deg å lage til ein nettside for bedrifta. Denne nettsida skal gi diverse informasjon om bedrifta slik som opningstid, tilgjengeleg bakst, prisar og kontaktinformasjon
