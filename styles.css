@@ -16,6 +16,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    object-fit: cover;
 }
 
 #welcome-text {
@@ -42,74 +43,59 @@
     display: grid;
     width: 50%;
     height: 80%;
-    background-color: #d6d6d6;
+    background-color: #d6d6d633;
     margin: auto;
     grid-template-columns: 45% 45%;
     column-gap: 10%;
     text-align: center;
     padding: 5rem;
     border-radius: 10rem;
+    border: #ffffff solid;
 }
 
 #opening-hours-div h2 {
     grid-column: 1 /span 2;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 #opening-hours-div p {
-    font-size: 3rem;
+    font-size: 4.8rem;
 }
 
 #baked-goods-and-prices {
     width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 10% 35% 10% 35% 10%;
     align-content: center;
     justify-content: center;
     background-image: radial-gradient(circle, #ffcccc, #ffe9c0);
 }
 
-#baked-goods {
+#baked-goods-and-prices-div {
     justify-content: center;
     align-content: center;
-    background-color: #d6d6d6;
+    background-color: #d6d6d633;
     padding: 2.5rem;
     border-radius: 5rem;
+    border: #ffffff solid;
+    margin: 0 30%;
 }
 
-#baked-goods h2 {
-    font-size: 3.5rem;
+#baked-goods-and-prices-div h2 {
+    font-size: 7rem;
 }
 
-#baked-goods p {
-    font-size: 2.4rem;
-}
-
-#prices {
-    justify-content: center;
-    align-content: center;
-    background-color: #d6d6d6;
-    padding: 2.5rem;
-    border-radius: 5rem;
-}
-
-#prices h2 {
-    font-size: 3.5rem;
-}
-
-#prices p {
-    font-size: 2.4rem;
+#baked-goods-and-prices-div p {
+    font-size: 4.8rem;
 }
 
 .divider {
     width: 100vw;
     height: 1rem;
-    background-color: #d6d6d6;
+    background-color: #ff9f9f;
 }
 
 footer {
-    background-color: #d6d6d6;
+    background-color: #ff9f9f;
     display: grid;
     grid-template-columns: 46% 46%;
     column-gap: 8%;
@@ -117,11 +103,11 @@ footer {
 }
 
 footer h3 {
-    font-size: 4rem;
+    font-size: 5.4rem;
     grid-row: 1 /span 2;
     justify-self: right;
 }
 
 footer p {
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
